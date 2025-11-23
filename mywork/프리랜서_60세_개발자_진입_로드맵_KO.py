@@ -8,7 +8,7 @@ from reportlab.pdfbase import pdfmetrics
 # Register a Korean-capable CID font (built into ReportLab)
 pdfmetrics.registerFont(UnicodeCIDFont("HYSMyeongJo-Medium"))
 
-pdf_path = "/mnt/data/프리랜서_60세_개발자_진입_로드맵_KO.pdf"
+pdf_path = "프리랜서_60세_개발자_진입_로드맵_KO.pdf"
 
 # Document
 doc = SimpleDocTemplate(pdf_path, pagesize=A4, title="60세 이상 개발자를 위한 프리랜서 진입 로드맵")
